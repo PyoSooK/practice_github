@@ -3,15 +3,14 @@
 가이드 : [https://www.markdownguide.org/](https://www.markdownguide.org/)
 
 # 목차
-## 기본 문법
+### 기본 문법
 - [Headings](#headings)
 - [Paragraph](#paragraph)
 - [Emphasis](#emphasis)
 
 # 기본 문법
----
 
-# Headings
+## Headings
 
 HTML : ``` <h1> ~ <h6> ```
 
@@ -63,14 +62,14 @@ Markdown :
     ---------
     
 
-# Paragraph
+## Paragraph
 HTML : ``` <p> ```
 
 Markdown : 
 
 * 주의 : 문단을 작성할 때 뛰어 쓰기(스페이스, 탭)를 사용하면 안된다.
 
-# Emphasis
+## Emphasis
 1. Bold
    
    HTML : ```<strong>```
