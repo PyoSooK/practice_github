@@ -4,8 +4,8 @@
 
 # 목차
 ## 기본 문법
-### [Headings](#headings)
-### [Paragraph](#paragraph)
+### [Headings](##headings)
+### [Paragraph](##paragraph)
 ### Emphasis
 
 # 기본 문법
