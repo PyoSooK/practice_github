@@ -3,10 +3,14 @@
 가이드 : [https://www.markdownguide.org/](https://www.markdownguide.org/)
 
 # 목차
+
 ### 기본 문법
+
 - [Headings](#headings)
 - [Paragraph](#paragraph)
 - [Emphasis](#emphasis)
+- [Blockquotes](#blockquotes)
+- [List](#list)
 
 # 기본 문법
 
@@ -63,6 +67,7 @@ Markdown :
     
 
 ## Paragraph
+
 HTML : ``` <p> ```
 
 Markdown : 
@@ -70,6 +75,7 @@ Markdown :
 * 주의 : 문단을 작성할 때 뛰어 쓰기(스페이스, 탭)를 사용하면 안된다.
 
 ## Emphasis
+
 1. Bold
    
    HTML : ```<strong>```
@@ -142,3 +148,49 @@ Markdown :
    This is **_Bold and Italic text_**
    
 * 주의 : ```This___is___Italic``` 처럼 중간에 밑줄을 넣는 경우 구분이 어려울 수 있으므로 ```This***is***bold```와 같이 적는 것이 좋다.
+
+## Blockquotes
+
+1. Blockquotes
+   ```
+   > 기호를 구문 앞에 작성하면 된다.
+   ```
+   > 구문 작성
+
+2. Blockquotes with Multiple Paagraphs
+   ```
+   > 여러줄을 하고 싶은 경우
+   >
+   > 기호를 이어서 작성하면 된다.
+   ```
+   > 구문 작성 시작
+   >
+   > 구문 작성 끝
+   
+3. Nested Blockquotes
+   ```
+   >
+   >> 이중 Blockquotes도 가능하다.
+   ```
+   > 구문 작성
+   >> 이중 작성
+
+4. Blockquotes with Other Elements
+   ```
+   > ## 다른 요소들을 사용할 수 있다
+   >
+   > - 예를 들어 강조를 사용할 수 있다
+   >
+   > **강조** 와 *이탤릭*
+   ```
+   > ### 다른 요소들을 사용할 수 있다
+   >
+   > - 예를 들어 강조를 사용할 수 있다
+   >   
+   > **강조** 와 *이탤릭*
+   
+## List 
+
+1. Ordered Lists
+   HTML : ```<ol>```
+   
