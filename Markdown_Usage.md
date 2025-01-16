@@ -12,7 +12,7 @@
 - [Blockquotes](#blockquotes)
 - [List](#list)
 - [Code](#code)
-- [Horizontal Rules](#Horizontal_Rules)
+- [Horizontal](#Horizontal)
 - [Links](#links)
 - [Images](#images)
 - [Highlight](#highlight)
@@ -353,7 +353,7 @@ Markdown :
         <head> </head>
     </html>
 
-# Horizontal Rules
+# Horizontal
 
 Markdown : `***` 혹은 `---` 혹은 `____________` 사용 (사용시 앞 뒤 띄어쓰기
 
