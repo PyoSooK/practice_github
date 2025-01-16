@@ -9,14 +9,14 @@
 - [Headings](#headings)
 - [Paragraph](#paragraph)
 - [Emphasis](#emphasis)
+- [Highlight](#highlight)
 - [Blockquotes](#blockquotes)
 - [List](#list)
+- [Checklists](#Checklists)
 - [Code](#code)
 - [Horizontal](#Horizontal)
 - [Links](#links)
 - [Images](#images)
-- [Highlight](#highlight)
-- [Checklists](#Checklists)
 
 # 기본 문법
 
@@ -155,6 +155,20 @@ Markdown :
    
 * 주의 : `This___is___Italic` 처럼 중간에 밑줄을 넣는 경우 구분이 어려울 수 있으므로 `This***is***bold`와 같이 적는 것이 좋다.
 
+
+# Highlight
+
+HTML : `<mark>`
+
+Markdown : `==` 사용
+
+```
+하이라이트 하고 싶은 부분에 ==강조== 하면 된다.
+```
+하이라이트 하고 싶은 부분에 <mark>강조</mark> 하면 된다.
+
+* == 사용이 안되는 경우 `<mark>`를 사용할 수 있다.  
+
 # Blockquotes
 
 1. Blockquotes
@@ -198,6 +212,7 @@ Markdown :
 # List 
 
 1. Ordered Lists
+   
    HTML : `<ol> <li>`
 
    Markdown :
@@ -215,6 +230,7 @@ Markdown :
 * 숫자 순서는 상관이 없이 1번부터 순서대로 작성된다.
 
 2. Unordered Lists
+   
    HTML : `<ul> <li>`
 
    Markdown : 
@@ -241,7 +257,7 @@ Markdown :
     
     + First
       
-3. 리스트 안 추가 요소
+4. 리스트 안 추가 요소
 
    (1) Paragraphs
      ```
@@ -278,6 +294,7 @@ Markdown :
      * Third
 
    (3) Code Blocks
+   
      리스트에서는 8개 혹은 2탭의 들여쓰기를 해야한다.
      ```
      1. 첫 번째 줄 
@@ -329,6 +346,19 @@ Markdown :
        - 들여쓰기
        - 들여쓰기
      4. 네 번째
+
+# Checklists
+
+Markdown : `- [ ]` 사용 (체크는 대괄호 안에 x 작성)
+
+```
+- [ ] 첫 번째 할 일
+- [x] 두 번째 할 일
+- [ ] 세 번째 할 일
+```
+- [ ] 첫 번째 할 일
+- [x] 두 번째 할 일
+- [ ] 세 번째 할 일
 
 # Code 
 
@@ -424,28 +454,3 @@ Markdown : Link 스타일에 !를 붙여서 사용한다.
 ```
 [![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
 
-# Highlight
-
-HTML : `<mark>`
-
-Markdown : `==` 사용
-
-```
-하이라이트 하고 싶은 부분에 ==강조== 하면 된다.
-```
-하이라이트 하고 싶은 부분에 <mark>강조</mark> 하면 된다.
-
-* == 사용이 안되는 경우 `<mark>`를 사용할 수 있다.  
-
-# Checklists
-
-Markdown : `- [ ]` 사용 (체크는 대괄호 안에 x 작성)
-
-```
-- [ ] 첫 번째 할 일
-- [x] 두 번째 할 일
-- [ ] 세 번째 할 일
-```
-- [ ] 첫 번째 할 일
-- [x] 두 번째 할 일
-- [ ] 세 번째 할 일
